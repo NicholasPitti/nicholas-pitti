@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 //let path='${basePath}/window.svg'
 //path=path.replaceAll(/\$\{basePath\}/gi,getConfig.basePath)
-const path="/"
+const path="./"
 
 export default function Home() {
   return (

@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
     unoptimized:true,
   },
   //basePath:"/nicholas-pitti",
-  assetPrefix: '/nicholas-pitti/',
+  //assetPrefix: '/nicholas-pitti/',
 };
 
 export default nextConfig;
