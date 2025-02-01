@@ -11,12 +11,59 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+///import getConfig from 'next/config';
+
+//let path='${basePath}/window.svg'
+//path=path.replaceAll(/\$\{basePath\}/gi,getConfig.basePath)
+const path="/"
+
 export default function Home() {
   return (
     <div
       className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
     >
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <Image
+            aria-hidden
+            src="/fiverrLogoT.PNG"
+            alt="Window icon"
+            width={16}
+            height={16}
+            unoptimized
+          />
+      <Image
+            aria-hidden
+            src="/fiverrLogoT.PNG"
+            alt="Window icon"
+            width={160}
+            height={160}
+      
+          />
+                          <Image
+            aria-hidden
+             src="/fiverrLogoT.PNG"
+            alt="Window icon"
+            width={16}
+            height={16}
+          />
+                <Image
+            aria-hidden
+            src={path}
+            alt="Window icon"
+            width={16}
+            height={16}
+            unoptimized
+          />
+                <Image
+            aria-hidden
+            src={path}
+            alt="Window icon"
+            width={16}
+            height={16}
+            
+          />
+
         <Image
           className="dark:invert"
           src="/next.svg"
