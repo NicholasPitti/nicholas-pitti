@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     unoptimized:true,
   },
   basePath:"/nicholas-pitti",
-  assetPrefix: './',
+  assetPrefix: '/nicholas-pitti/',
 };
 
 export default nextConfig;
