@@ -10,7 +10,7 @@ import img4 from '../images/uipath-cert.png'
 const certsImages = [img1,img2,img3,img4] 
 
 const certItems = certsImages.map(cert=>
-  <CertificationCard thumbnail={cert.src}></CertificationCard>
+  <CertificationCard thumbnail={cert.src ?? ''} key={cert.src ?? ''}></CertificationCard>
 )
 
 const SectionEducation = () => {

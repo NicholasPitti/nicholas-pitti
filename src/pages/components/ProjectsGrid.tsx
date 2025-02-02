@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+//import Col from 'react-bootstrap/Col';
 import ProjectsCards from './ProjectsCards';
 
 import img1 from '../images/spellcompendium-thumbnail.png'
@@ -11,7 +11,7 @@ import img4 from '../images/yttranscribe-thumbnail.png'
 import img5 from '../images/webpage-clone-thumbnail.png'
 import img6 from '../images/verbalmem-thumbnail.png'
 
-const certsImages = [img1,img2,img3,img4,img5,img6] 
+//const certsImages = [img1,img2,img3,img4,img5,img6] 
 
 
 const ProjectsGrid = () => {

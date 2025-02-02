@@ -1,7 +1,8 @@
 import React from 'react'
 import Stack from  'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
-import Text from 'react-bootstrap/'
+//import Text from 'react-bootstrap/'
+
 export const VerbalMemoryTest = () => {
   return (
     <div>VerbalMemoryTest</div>
@@ -147,7 +148,7 @@ const LocalProjects = () => {
         <div id="lives" className='text-primary fs-3'>3</div>
         <textarea id="textArea" style={{height:'15rem'}} className="text-dark w-75">seen words are displayed here</textarea>
 
-        <p className="fst-italic">You are shown words, one at a time. If you've seen a word during the test click SEEN. If it's a new word, click NEW.</p>
+        <p className="fst-italic"></p>
 
       </Stack>
     </>

@@ -6,7 +6,7 @@ import {Row,Col,Container,Stack} from 'react-bootstrap';
 const skillsArray = ["HTML","CSS","JavaScript","TypeScript","Bootstrap","Vue","React","Git","Python","Linux"] 
 
 const skillsList = skillsArray.map(skill=>
-  <Button size="lg" variant="outline-light" className="m-2" >{skill}</Button>
+  <Button size="lg" variant="outline-light" className="m-2" key={skill}>{skill}</Button>
 )
 
 const Hero = () => {
