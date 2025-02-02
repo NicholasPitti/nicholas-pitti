@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 //pathEnd=pathEnd.replaceAll(/\$\{basePath\}/gi,nextConfig.basePath.toString())
 
-import myImage from '/images/fiverrLogoT.png';
+import myImage from 'nicholas-pitti/src/pages/images/fiverrLogo.png';
 
 const pathEnd=myImage.src
 const path=myImage.src
