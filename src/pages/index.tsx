@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+//import getConfig from "next/config";
+//import nextConfig from "../../next.config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,18 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 
-///import getConfig from 'next/config';
+///import getConfig from 'next/config';???
+//nextConfig.basePath
 
-//let path='${basePath}/window.svg'
-//path=path.replaceAll(/\$\{basePath\}/gi,getConfig.basePath)
-const path="./images/fiverrLogoT.PNG"
+//let path='${basePath}/window.svg'git add *
+//const items={link:"${basePath}/images/fiverrLogoT.PNG"}
+//const pathEnd=JSON.stringify(nextConfig.basePath)
 
-export default function Home() {
-  return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+//pathEnd=pathEnd.replaceAll(/\$\{basePath\}/gi,nextConfig.basePath.toString())
+const pathEnd="/nicholas-pitti/images/fiverrLogoT.PNG"
+const path="/images/fiverrLogoT.PNG"
+
+const pathPublic="/file.svg"
+const capPublic="/file.SVG"
+
+/*
       <Image
             aria-hidden
             src="/images/fiverrLogoT.PNG"
@@ -47,7 +52,68 @@ export default function Home() {
             width={16}
             height={16}
           />
+*/
+
+
+export default function Home() {
+  return (
+    <div
+      className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
+    >
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+
                 <Image
+            aria-hidden
+            src={pathEnd}
+            alt="Window icon"
+            width={16}
+            height={16}
+            unoptimized
+          />
+                <Image
+            aria-hidden
+            src={pathEnd}
+            alt="Window icon"
+            width={16}
+            height={16}
+            
+          />
+
+<Image
+            aria-hidden
+            src={pathPublic}
+            alt="Window icon"
+            width={16}
+            height={16}
+            unoptimized
+          />
+                <Image
+            aria-hidden
+            src={pathPublic}
+            alt="Window icon"
+            width={16}
+            height={16}
+            
+          />
+
+<Image
+            aria-hidden
+            src={capPublic}
+            alt="Window icon"
+            width={16}
+            height={16}
+            unoptimized
+          />
+                <Image
+            aria-hidden
+            src={capPublic}
+            alt="Window icon"
+            width={16}
+            height={16}
+            
+          />
+
+<Image
             aria-hidden
             src={path}
             alt="Window icon"
