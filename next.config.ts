@@ -6,14 +6,12 @@ const nextConfig: NextConfig = {
   /* config options here */
   //reactStrictMode: true,
   //basePath: isProd ? '/nicholas-pitti' : '',
-  output: 'export'
-  /*
+  output: 'export',
   images: {
     unoptimized:true,
   },
-  basePath:"/nicholas-pitti",
-  assetPrefix: '/nicholas-pitti/',
-  */
+  //basePath:"/nicholas-pitti",
+  //assetPrefix: '/nicholas-pitti/',
 };
 
 export default nextConfig;
