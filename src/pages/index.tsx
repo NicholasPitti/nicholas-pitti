@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 //pathEnd=pathEnd.replaceAll(/\$\{basePath\}/gi,nextConfig.basePath.toString())
 
-import myImage from './nicholas-pitti/src/pages/images/fiverrLogo.png';
+import myImage from './fiverrLogo.png';
 
 const pathEnd=myImage.src
 const path=myImage.src
@@ -96,39 +96,6 @@ export default function Home() {
             
           />
 
-<Image
-            aria-hidden
-            src='./images/fiverrLogoT.png'
-            alt="Window icon"
-            width={16}
-            height={16}
-            unoptimized
-          />
-                <Image
-            aria-hidden
-            src='./images/fiverrLogoT.png'
-            alt="Window icon"
-            width={16}
-            height={16}
-            
-          />
-
-<Image
-            aria-hidden
-            src='./images/fiverrLogoT.png'
-            alt="Window icon"
-            width={16}
-            height={16}
-            unoptimized
-          />
-                <Image
-            aria-hidden
-            src='./images/fiverrLogoT.png'
-            alt="Window icon"
-            width={16}
-            height={16}
-            
-          />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
