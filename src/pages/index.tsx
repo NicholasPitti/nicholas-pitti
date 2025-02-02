@@ -23,11 +23,6 @@ const geistMono = Geist_Mono({
 
 //pathEnd=pathEnd.replaceAll(/\$\{basePath\}/gi,nextConfig.basePath.toString())
 
-import myImage from './fiverrLogo.png';
-
-const pathEnd=myImage.src
-const path=myImage.src
-
 /*
       <Image
             aria-hidden
@@ -63,7 +58,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
       <Image
             aria-hidden
-            src={pathEnd}
+            src='./fiverrLogo.png'
             alt="Window icon"
             width={16}
             height={16}
@@ -71,7 +66,7 @@ export default function Home() {
           />
                 <Image
             aria-hidden
-            src={pathEnd}
+            src='./fiverrLogo.png'
             alt="Window icon"
             width={16}
             height={16}
@@ -81,7 +76,7 @@ export default function Home() {
 
 <Image
             aria-hidden
-            src={path}
+            src='./fiverrLogo.png'
             alt="Window icon"
             width={16}
             height={16}
@@ -89,7 +84,7 @@ export default function Home() {
           />
                 <Image
             aria-hidden
-            src={path}
+            src='./fiverrLogo.png'
             alt="Window icon"
             width={16}
             height={16}
