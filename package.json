@@ -12,6 +12,7 @@
   "dependencies": {
     "next": "15.1.6",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
