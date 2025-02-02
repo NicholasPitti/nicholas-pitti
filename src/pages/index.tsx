@@ -22,11 +22,11 @@ const geistMono = Geist_Mono({
 //const pathEnd=JSON.stringify(nextConfig.basePath)
 
 //pathEnd=pathEnd.replaceAll(/\$\{basePath\}/gi,nextConfig.basePath.toString())
-const pathEnd="/nicholas-pitti/images/fiverrLogoT.PNG"
-const path="/images/fiverrLogoT.PNG"
+const pathEnd="./nicholas-pitti/images/fiverrLogoT.PNG"
+const path="./images/fiverrLogoT.PNG"
 
-const pathPublic="/file.svg"
-const capPublic="/file.SVG"
+const pathPublic="./file.svg"
+const capPublic="./file.SVG"
 
 /*
       <Image
@@ -132,7 +132,7 @@ export default function Home() {
 
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src="./next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
@@ -158,7 +158,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src="//vercel.SVG"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -184,7 +184,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="./fiverrLogo.PNG"
             alt="File icon"
             width={16}
             height={16}
@@ -199,7 +199,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="./fiverrLogo.png"
             alt="Window icon"
             width={16}
             height={16}
