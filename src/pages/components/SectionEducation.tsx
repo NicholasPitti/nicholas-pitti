@@ -2,15 +2,13 @@ import React from 'react'
 import CertificationCard from './CertificationCard'
 import Stack from  'react-bootstrap/Stack';
 
-import img1 from '../images/utp-diploma.png'
-import img2 from '../images/frontend-cert.png'
-import img3 from '../images/cisco-cert.png'
-import img4 from '../images/uipath-cert.png'
+const imagePaths=['./utp-diploma.png',
+ './frontend-cert.png',
+ './cisco-cert.png',
+ './uipath-cert.png']
 
-const certsImages = [img1,img2,img3,img4] 
-
-const certItems = certsImages.map(cert=>
-  <CertificationCard thumbnail={cert.src ?? ''} key={cert.src ?? ''}></CertificationCard>
+const certItems = imagePaths.map(cert=>
+  <CertificationCard thumbnail={cert ?? ''} key={cert ?? ''}></CertificationCard>
 )
 
 const SectionEducation = () => {
