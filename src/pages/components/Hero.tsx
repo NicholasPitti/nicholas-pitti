@@ -16,7 +16,7 @@ const Hero = () => {
       {
         `
         .hero-container{
-          height:92.5vh;
+          height:90vh;
           padding:3rem;
           background-color: #0d0d0d;
           color:white;

@@ -5,7 +5,7 @@ import {Navbar,Nav} from 'react-bootstrap/';
 import Stack from 'react-bootstrap/Stack';
 const NavbarDesktop = () => {
   const navbarClass=
-    "sticky-top navbar border-top border-light text-light p-3 text-center fs-4";
+    "sticky-top navbar border-top border-light text-light p-3 text-center mr-2";
 
   return (
     <>

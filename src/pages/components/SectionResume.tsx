@@ -31,7 +31,7 @@ const SectionResume = () => {
           className="mx-auto resumeButtons "
           >
         <Button variant="outline-primary" className="">
-          Preview
+          View PDF
         </Button>
         </a>
 
@@ -43,7 +43,7 @@ const SectionResume = () => {
 
          >
         <Button variant="outline-primary" className="">
-          Download
+          Download PDF
         </Button>
         </a>
 

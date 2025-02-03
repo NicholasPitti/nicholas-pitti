@@ -16,6 +16,7 @@ a:hover {
 }
 
 body {
+  width: 100vw;
   text-decoration: none;
   /*color: var(--foreground);
   background: var(--background);
