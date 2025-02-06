@@ -26,7 +26,7 @@ const SectionResume = () => {
         <hr className="text-light w-50 mx-auto p-1" />
         <a
           target="_blank"
-          href="/CV-NicholasPitti.pdf"
+          href="./CV-NicholasPitti.pdf"
           rel="norefferer noopener"
           className="mx-auto resumeButtons "
           >
@@ -37,7 +37,7 @@ const SectionResume = () => {
 
 
         <a 
-          href="/CV-NicholasPitti.pdf"
+          href="./CV-NicholasPitti.pdf"
           download="ResumeNicholasPitti"
           className="mx-auto "
 

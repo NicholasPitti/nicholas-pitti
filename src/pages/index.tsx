@@ -28,7 +28,6 @@ export default function Home() {
       <SectionProjects></SectionProjects>
       <SectionEducation></SectionEducation>
       <SectionResume></SectionResume>
-
     </>
 
   );
