@@ -36,7 +36,7 @@ const SectionContact = () => {
           <a href="https://www.linkedin.com/in/nicholas-antonio-pitti-745772140/"
             title="Link to LinkedIn profile">
           <BsLinkedin style={{display:'inline',margin:'0px 8px 4px 0px'}}/>
-          Nicholas Pitti Gonzalez
+          Nicholas Pitti
           </a>
         </span>
       </Card>
