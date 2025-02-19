@@ -10,8 +10,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized:true,
   },
-  basePath:"/nicholas-pitti",
-  assetPrefix: '/nicholas-pitti/',
+  //basePath:"/nicholas-pitti",
+  //assetPrefix: '/nicholas-pitti/',
 };
 
 export default nextConfig;
