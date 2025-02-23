@@ -32,16 +32,19 @@ const ProjectsGrid = () => {
     <>
     <Container>
     <Row className="g-3 my-3" gap={3}>
+
+    <ProjectsCards isLocal={false}
+        link="https://youtu.be/uIlI1pc9vQk"
+        title="Spotify Organizer Tool"
+        thumbnail={imagePaths[1]}>
+        </ProjectsCards>
+        
         <ProjectsCards isLocal={false}
         link="https://youtu.be/kSGPBGqYkIw" 
         title="FullStack TableTop Spell Compendium"
         thumbnail={imagePaths[0]}>
         </ProjectsCards>
-        <ProjectsCards isLocal={false}
-        link="https://www.youtube.com/watch?v=zHVb1AaPp2E"
-        title="Spotify TableTop Ambiance Tool"
-        thumbnail={imagePaths[1]}>
-        </ProjectsCards>
+
         <ProjectsCards isLocal={false}
         link="https://www.dojohaim.com"
         title="Dojo Haim Website Overhaul"
