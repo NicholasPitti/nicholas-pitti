@@ -34,13 +34,13 @@ const ProjectsGrid = () => {
     <Row className="g-3 my-3" gap={3}>
 
     <ProjectsCards isLocal={false}
-        link="https://youtu.be/uIlI1pc9vQk"
+        link="https://www.youtube.com/watch?v=uIlI1pc9vQk"
         title="Spotify Organizer Tool"
         thumbnail={imagePaths[1]}>
         </ProjectsCards>
         
         <ProjectsCards isLocal={false}
-        link="https://youtu.be/kSGPBGqYkIw" 
+        link="https://www.youtube.com/watch?v=kSGPBGqYkIw" 
         title="FullStack TableTop Spell Compendium"
         thumbnail={imagePaths[0]}>
         </ProjectsCards>
@@ -51,7 +51,7 @@ const ProjectsGrid = () => {
         thumbnail={imagePaths[2]}>
         </ProjectsCards>
         <ProjectsCards isLocal={false}
-        link="https://youtu.be/ykgG8O8XPwQ"
+        link="https://www.youtube.com/watch?v=ykgG8O8XPwQ"
         title="Summary Generation With Transcribed MP4"
         thumbnail={imagePaths[3]}>
         </ProjectsCards>
