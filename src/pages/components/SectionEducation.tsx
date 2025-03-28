@@ -5,7 +5,7 @@ import Stack from  'react-bootstrap/Stack';
 const imagePaths=['./utp-diploma.png',
  './frontend-cert.png',
  './cisco-cert.png',
- './uipath-cert.png']
+ './uipath-cert.png','./linux-unhatched-cert.png']
 
 const certItems = imagePaths.map(cert=>
   <CertificationCard thumbnail={cert ?? ''} key={cert ?? ''}></CertificationCard>
