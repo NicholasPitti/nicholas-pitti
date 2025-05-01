@@ -27,7 +27,7 @@ const Hero = () => {
     </style>
     <Stack direction="vertical" gap={5} className="hero-container d-flex align-items-start">
       <h1 className="">Nicholas Pitti</h1>
-      <h2 className="text-secondary fs-2">Computer Science Engineer passionate about Web & Automation</h2>
+      <h2 className="text-secondary fs-2">Computer Science Engineer proficient in Web & Automation</h2>
       <Container style={{padding:0, margin:0}}>
       <Row >
         <Col style={{padding:0, margin:0}}>
